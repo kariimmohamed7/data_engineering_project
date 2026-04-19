@@ -19,6 +19,6 @@ Big Data Processing (PySpark): Migrated the pipeline to PySpark for distributed 
 
 Outcome: 
 
-Delivered a containerized, fully automated data pipeline that ingests raw financial data, cleanses and enriches it, and loads it into a query-ready analytical database—demonstrating core competencies in Python, SQL, Docker, and Distributed Computing.
+Delivered a containerized, fully automated data pipeline that ingests raw financial data, cleanses and enriches it, and loads it into a query-ready analytical database, demonstrating core competencies in Python, SQL, Docker, and Distributed Computing.
 
 
