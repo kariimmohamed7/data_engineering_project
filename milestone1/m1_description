@@ -1,4 +1,5 @@
 Data Engineering W24 - Milestone 1 Description
+
 1 Introduction
 The goal of this milestone is to load the provided CSV files, perform exploratory data analysis (EDA) with
 visualization, extract additional data, perform feature engineering, and pre-process the data for downstream
@@ -9,6 +10,7 @@ Note: Each student has their assigned dataset so you can find the dataset assign
 and download your assigned dataset from here.
 You can also find weight distribution and marking rubric for the milestone on the same CMS, which will
 help you understand what is precisely required from you.
+
 IMPORTANT NOTES
 • Each task should be written as a function. Organizing the code as functions will help you in milestone
 2, so it’s highly recommended to make all actions function-based.
@@ -17,14 +19,18 @@ supply you with more data from the same dataset, you need to make sure that your
 compatible with it.
 • VERY IMPORTANT: Before submission, you need to make sure that you run all the notebook and
 submit it with the output. As we won’t have time to run each and every notebook on its own.
+
+
 2 Requirements
 Note that, you don’t need to follow the same flow or order of the tasks mentioned, you need to do them in a
 logical order.
+
 2.1 EDA
 1. Explore the dataset and ask at least 5 questions to give you a better understanding of the data
 provided to you.
 2. Visualize the answer to these 5 questions. Make sure to mention what the visualization shows and
 what observations you have found in these insights.
+
 2.2 Data Cleaning
 1. Tidy up the column names, make sure there are no spaces
 2. Choose a suitable column index
@@ -41,6 +47,7 @@ impute with it.
 IMPORTANT NOTE: With every change you make to the data you need to comment on why you used this
 technique and how has it affected the data (by both showing the change in the data i.e change in a number
 of rows/columns, change in distribution, etc. and commenting on it).
+
 2.3 Data Transformation and Feature Engineering
 1. Add the following 4 columns
 • Month number: integer - create a month number column (1-12) to be able to discretize the data
@@ -63,6 +70,7 @@ where:
 2. Encode any categorical feature(s) and comment on why you used this technique and how the data
 has changed (Make sure to include this in the lookup table, more on this later in section 2.4).
 3. If exists, Identify feature(s) that need normalization and show your reasoning. Then choose a technique to normalize the feature(s) and comment on why you chose this technique.
+
 2.4 Lookup Table(s)
 You will need to create a lookup table (CSV) which will contain info about the original values for any feature/values you have imputed. This lookup table must be created programmatically and not hard-coded (not
 done by hand) as much as possible.
@@ -82,6 +90,7 @@ csv file illustrating what -1 and 100 means. Or for instance, if you encode citi
 number represents must be shown in the new csv file. See table 1 for an example.
 Note: You can use the values in the lookup table later to reverse all of the imputed values to their original
 values.
+
 2.5 Bonus Task
 Using the state column, create another column named state name, this column should contain the full state
 name, eg. CA full name is California, and TX is Texas. To be able to create this new column you need to
@@ -98,6 +107,7 @@ fintech data {MAJOR} {GROUP} {ID} clean.csv/parquet
 Replace the group with your group number, and the id with your id (please don’t use - (dash/hyphen),
 instead use (underscore)). Example:
 fintech data MET P1 52 1111 clean.parquet
+
 
 3 Submission Guidelines
 Create a Google Drive folder named ” DE W24 FirstName LastName ID GROUP MAJOR ” and include your
