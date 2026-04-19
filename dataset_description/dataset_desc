@@ -1,1 +1,32 @@
-
+Data Engineering W24 - Fintech Dataset Description
+1.	Customer Id: Unique identifier assigned to each customer for reference in the dataset.
+2.	Emp Title: Job title or occupation of the customer (borrower).
+3.	Emp Length: Length of employment for the customer, often recorded in years.
+4.	Home Ownership: The ownership status of the customer’s home, such as ”Rent,” ”Own,” or ”Mortgage.”
+5.	Annual Inc: The customer’s individual annual income.
+6.	Annual Inc Joint: The combined annual income of the customer and co-borrower (if applicable), typically in cases where there is joint borrowing i.e. two or more individuals are applying for a loan together.
+7.	Verification Status: The verification status of the customer’s income and employment, typically values like ”Verified,” ”Not Verified,” or ”Source Verified.”
+8.	Zip Code: The postal code prefix corresponding to the customer’s residential address.
+9.	Addr State: The state in which the customer resides, represented by a two-letter state abbreviation.
+10.	Avg Cur Bal: The customer’s average current balance across all active accounts, possibly including credit cards, loans, etc.
+11.	Tot Cur Bal: The total current balance of all the customer’s accounts, which may include outstanding loans, credit cards, and other financial obligations.
+12.	Loan Id: A unique identifier for each loan issued to a customer.
+13.	Loan Status: The current status of the loan, such as ”Current,” ”Fully Paid,” ”Late,” ”Charged Off,” etc.
+14.	Loan Amount: The original amount of money borrowed by the customer.
+15.	State: The state where the loan was issued or where the borrower resides.
+16.	Funded Amount: The actual amount of the loan funded (which may differ from the original loan request or loan amount).
+17.	Term: The length of time over which the loan is to be repaid, typically in months (e.g., 36 or 60 months).
+18.	Int Rate: The annual interest rate on the loan.
+19.	Grade: A grade assigned to the loan, which may reflect the borrower’s creditworthiness or risk level.
+•	A (1-5)
+•	B (6-10)
+•	C (11-15)
+•	D (16-20)
+•	E (21-25)
+•	F (26-30)
+•	G (31-35)
+20.	Issue Date: The date when the loan was issued to the borrower.
+21.	Pymnt Plan: Indicates whether the borrower is enrolled in a payment plan or not.
+22.	Type: The type of loan, such as ”Individual”, or ”Joint” which means that two or more customers requested the loan together, or ”Direct Pay”.
+23.	Purpose: The reason the borrower applied for the loan, such as ”Debt Consolidation,” ”Home Improvement,” ”Medical,” etc.
+24.	Description: Additional information or a brief description provided by the customer regarding the purpose of the loan or the financial situation.
